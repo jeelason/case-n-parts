@@ -1,0 +1,27 @@
+INSERT INTO psu
+(Brand,Wattage,Atx_Connector,Atx_12v_Connector,Graphics_Connector,Molex_Connector,Sata_Connector)
+VALUES
+('EVGA','850 Watts','20+4-pin','2 x 4+4-pin','6 x 6+2-pin','3','9'),
+    ('EVGA','1000 Watts','20+4-pin','2 x 4+4-pin','8 x 6+2-pin','4','12'),
+    ('Corsair','850 Watts','20+4-pin','3 x 4+4-pin','4 x 6+2-pin','4','14'),
+    ('EVGA','650 Watts','24-pin','1 x 4+4-pin','2 x 6+2-pin','3','7'),
+    ('Corsair','850 Watts','24-pin','3 x 4+4-pin','4 x 6+2-pin','4','8'),
+    ('Seasonic USA','850 Watts','24-pin','2 x 4+4-pin','6 x 6+2-pin','5','10'),
+    ('Corsair','750 Watts','20+4-pin','3 x 4+4-pin','4 x 6+2-pin','4','14'),
+    ('Corsair','1000 Watts','24-pin','2 x 4+4-pin','8 x 6+2-pin',,'16'),
+    ('Seasonic USA','1000 Watts','20+4-pin','2 x 4+4-pin','8 x 6+2-pin','5','12'),
+    ('EVGA','1000 Watts','24-pin','2 x 8-pin','10 x 6+2-pin','3','12'),
+    ('Corsair','750 Watts','24-pin','2 x 4+4-pin','4 x 6+2-pin','4','9'),
+    ('Corsair','1200 Watts','20+4-pin','2 x 4+4-pin','8 x 6+2-pin','8','20'),
+    ('Seasonic USA','750 Watts','20+4-pin','2 x 4+4-pin','4 x 6+2-pin','3','8'),
+    ('EVGA','500 Watts','20+4-pin','1 x 4+4-pin','2 x 6+2-pin','3','6'),
+    ('ASUS','1200 Watts','20+4-pin','2 x 4+4-pin','8 x 6+2-pin','5','12'),
+    ('G.Skill','750 Watts','20+4-pin','1 x 4+4-pin','4 x 6+2-pin','3','9'),
+    ('Cooler Master','850 Watts','24-pin','1 x 4+4-pin 1 x 8-pin','4 x 6+2-pin','4','8'),
+    ('Lian Li','750 Watts','20+4-pin','2 x 4+4-pin','3 x 6+2-pin','4','4'),
+    ('MAINGEAR','1200 Watts','20+4-pin','2 x 4+4-pin','8 x 6+2-pin','14','14'),
+    ('Thermaltake','500 Watts','20+4-pin','1 x 4+4-pin','2 x 6+2-pin','3','6'),
+    ('Thermaltake','600 Watts','20+4-pin','1 x 4+4-pin','2 x 6+2-pin','3','6'),
+    ('MSI','1000 Watts','20+4-pin','2 x 4+4-pin','7 x 6+2-pin','4','12'),
+    ('Corsair','750 Watts','20+4-pin','2 x 4+4-pin','4 x 6+2-pin','4','8'),
+    ('EVGA','850 Watts','20+4-pin','2 x 4+4-pin','4 x 6+2-pin','4','6')

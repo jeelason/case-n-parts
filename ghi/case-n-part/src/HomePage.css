@@ -1,0 +1,25 @@
+h1 {
+  padding-top: 100px;
+}
+.our-cases {
+  padding-top: 2rem;
+}
+.carousel-item img {
+  width: 18rem;
+}
+
+.carousel-inner {
+  background-color: #0a0a0a;
+}
+
+.container .card {
+  width: 14rem;
+  height: 14rem;
+}
+
+.card-homepage {
+  transition-duration: 150ms;
+}
+.card-homepage:hover {
+  transform: scale(1.04);
+}

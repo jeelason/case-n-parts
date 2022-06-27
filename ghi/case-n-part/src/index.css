@@ -1,0 +1,80 @@
+html,
+body,
+#root {
+  min-height: 100vh;
+  min-width: auto;
+  background-color: #0a0a0a;
+}
+
+body {
+  position: relative;
+  text-align: center;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.selected-list-item > td {
+  filter: brightness(140%);
+}
+
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid rgba(18, 199, 227, 0.79);
+  color: white;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #01c7ee7a;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #a2bfec81;
+}
+
+/* .paginationDisabled a {
+  color: grey;
+  background-color: grey;
+} */
+
+.centerPagination {
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown-menu {
+  min-width: auto;
+  padding: 5px;
+}
+
+.modal-min-width {
+  min-width: 50%;
+}
+
+.nav-border {
+  border-bottom: 2px solid rgb(27, 22, 22);
+}
+.btn-no-hover {
+  cursor: default;
+}

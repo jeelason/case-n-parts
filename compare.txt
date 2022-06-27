@@ -1,0 +1,12 @@
+rating
+    id
+    liked
+    buildid
+    userid
+
+build
+    id
+    userid
+
+Have they already upvoted the build?
+    if rating.buildid === buildid and rating.liked === false
