@@ -1,10 +1,5 @@
 # Great Value
 
-- Chad
-- Jason
-- Jarett
-- Jaylon
-
 This allows you to experiement with different parts and computer cases to build your desired PC.
 
 ## Design
