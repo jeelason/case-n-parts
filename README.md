@@ -1,4 +1,4 @@
-# Great Value
+# Case N' Parts
 
 This allows you to experiement with different parts and computer cases to build your desired PC.
 
