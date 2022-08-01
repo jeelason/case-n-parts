@@ -57,7 +57,7 @@ People that care about how their PC looks, and not just how it works.
 
 ## Backend needs
 
-- As we are unable to find an API to handle products, we created a web scraper to pull computer part details.
+- As we are unable to find an API to handle products, we created a web scraper to pull computer part details. Axios and Cheerio were used to fetch the data from specific portions of parsed HTML. A script was created and ran to generate SQL files of over 1000+ PC part descriptions to be used in PostgresSQL.
 
 ---
 
