@@ -25,7 +25,7 @@ This web application allows you to experiment with different parts and computer 
 Install Docker
 
 In your terminal, create docker volume: \
-`docker volume create beta-data`
+`docker volume create cnp-data`
 
 Docker compose build and then up: \
 `docker compose build`
@@ -59,18 +59,9 @@ People that care about how their PC looks, and not just how it works.
 
 - As we are unable to find an API to handle products, we created a web scraper to pull computer part details.
 
+---
+
 ### Functionality
-
-<img src='docs/layout/homepage.png' alt='homepage' width=600px>
-<img src='docs/layout/createbuild.png' alt='create build' width=500px>
-<img src='docs/layout/detailbuild.png' alt='detail build' width=500px>
-<img src='docs/layout/mybuild.png' alt='my builds' width=500px>
-<img src='docs/layout/listbuild.png' alt='list builds' width=500px>
-
-<!-- ![create_build](docs/layout/createbuild.png)
-![detail_build](docs/layout/detailbuild.png)
-![user_build](docs/layout/mybuild.png)
-![list_build](docs/layout/listbuild.png) -->
 
 - Users should be able to sign up for an account so that they save their builds
 - Users should be able to browse through a huge database of computer hardware
@@ -86,3 +77,19 @@ People that care about how their PC looks, and not just how it works.
 - At the end of the month, automatically show the top rated build of the month.
   - If the top rated build is tied with another in rating, use the amount of views it has to break the tie.
     - If that does not break the tie, show both builds.
+
+---
+
+## App Overview
+
+<div align="center"><br />
+    <h3 align="center">Homepage with top builds and case designs</h3>
+  <img src="./ss/c-1.png" alt="homepage" width='40%'/>
+  <img src="./ss/c-2.png" alt="darkmode" width='40%'/><br />  
+    <h3 align="center">Create your custom PC with detailed view of each part</h3>
+    <img src="./ss/c-3.png" alt="form example" width='40%' />
+    <img src="./ss/c-4.png" alt="service appointments" width='40%' /> <br />
+    <h3 align="center">Detailed view of a build; public list of all user builds</h3>
+    <img src="./ss/c-5.png" alt="auto list" width='40%' />
+    <img src="./ss/c-6.png" alt="sales list" width='40%' /><br />
+  </div>
