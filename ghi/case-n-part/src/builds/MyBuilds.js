@@ -41,7 +41,7 @@ function MyBuilds() {
         return (
           <>
             <div className="row py-3 justify-content-center" key={build.id}>
-              <div className="card h-100 border-light bg-transparent">
+              <div className="card h-100 border-light card-bg">
                 <img
                   src={build.picture}
                   className="card-img-top p-3"
@@ -49,14 +49,14 @@ function MyBuilds() {
                 />
                 <div className="card-body">
                   <h5 className="card-title text-info">{build.Name}</h5>
-                  <p className="card-text text-primary">{build.username}</p>
+                  <p className="card-text">{build.username}</p>
                   <Link
                     to={`/builds/detailbuild/${build.id}`}
-                    className="btn btn-outline-primary"
+                    className="btn btn-outline-light"
                   >
                     Build Detail
                   </Link>
-                  <div style={{ color: "lightblue" }} className="pt-3">
+                  <div style={{ color: "#17c8cb" }} className="pt-3">
                     <i
                       type="button"
                       onClick={() => {

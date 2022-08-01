@@ -223,17 +223,14 @@ function CreateBuild() {
                   })}
                 </select>
                 <div className="col-sm-1 w-75 pt-2">
-                  <button
-                    type="button"
-                    className="btn btn-outline-secondary w-100"
-                  >
+                  <button type="button" className="btn btn-outline-light w-100">
                     {build.mobo ? `MOBOS: ${build.mobo.brand}` : "MOBOS"}
                   </button>
                 </div>
                 <div className="col-sm-1 w-75 pt-2">
                   <button
                     type="button"
-                    className="btn btn-outline-secondary w-100"
+                    className="btn btn-outline-light w-100"
                     data-bs-toggle="modal"
                     data-bs-target="#psuModal"
                   >
@@ -308,7 +305,7 @@ function CreateBuild() {
                 <div className="col-sm-1 w-75 pt-2">
                   <button
                     type="button"
-                    className="btn btn-outline-secondary w-100"
+                    className="btn btn-outline-light w-100"
                     data-bs-toggle="modal"
                     data-bs-target="#cpuModal"
                   >
@@ -379,7 +376,7 @@ function CreateBuild() {
                   <div className="btn-group dropend w-100">
                     <button
                       type="button"
-                      className="btn btn-outline-secondary w-75"
+                      className="btn btn-outline-light w-75"
                       data-bs-toggle="modal"
                       data-bs-target="#gpuModal"
                     >
@@ -501,7 +498,7 @@ function CreateBuild() {
                   <div className="btn-group dropend w-100">
                     <button
                       type="button"
-                      className="btn btn-outline-secondary w-75"
+                      className="btn btn-outline-light w-75"
                       data-bs-toggle="modal"
                       data-bs-target="#hddModal"
                     >
@@ -573,7 +570,7 @@ function CreateBuild() {
                   <div className="btn-group dropend w-100">
                     <button
                       type="button"
-                      className="btn btn-outline-secondary w-75"
+                      className="btn btn-outline-light w-75"
                       data-bs-toggle="modal"
                       data-bs-target="#ramModal"
                     >
@@ -681,7 +678,7 @@ function CreateBuild() {
                 <div className="col-sm-1 pt-2 w-50">
                   <button
                     type="submit"
-                    className="btn btn-outline-primary w-100 mt-4"
+                    className="btn btn-outline-light w-100 mt-4"
                   >
                     Create
                   </button>

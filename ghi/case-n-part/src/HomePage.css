@@ -9,7 +9,8 @@ h1 {
 }
 
 .carousel-inner {
-  background-color: #0a0a0a;
+  background-color: rgba(145, 144, 142, 0.3);
+  
 }
 
 .container .card {

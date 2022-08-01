@@ -331,6 +331,7 @@ class BuildsQueries:
                     [new_build_id],
                 )
                 rows = cursor.fetchone()
+                print("row: ", rows)
                 return list(rows)
 
     def get_build_by_user(self, userid: int):

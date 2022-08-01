@@ -1,11 +1,47 @@
-# Great Value
+# Case N' Parts
+
+This web application allows you to experiment with different parts and computer cases to build your desired PC.
+
+## Technologies Used
+
+- Setup and Configuration: \
+  ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+  ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+
+- Front End Development : \
+  ![React.JS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+  ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+- Back End Development: \
+  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+  ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+
+- Deployment: \
+  ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+
+## Setup
+
+Install Docker
+
+In your terminal, create docker volume: \
+`docker volume create beta-data`
+
+Docker compose build and then up: \
+`docker compose build`
+`docker compose up`
+
+Access in browser:\
+`http://localhost:3000`
+
+---
+
+## Contributors
 
 - Chad
 - Jason
 - Jarett
 - Jaylon
-
-This allows you to experiement with different parts and computer cases to build your desired PC.
 
 ## Design
 
@@ -16,21 +52,32 @@ This allows you to experiement with different parts and computer cases to build 
 
 ## Intended market
 
-The people we would expect to use this application, are hobbiests and enthusiests.
-People that care about how their PC looks, and not just that it works.
+The people we would expect to use this application, are pc hobbyists and enthusiasts.
+People that care about how their PC looks, and not just how it works.
 
 ## Backend needs
 
-- As we are unable to find an API to handle products, we create a web scraper to pull computer part details and price
+- As we are unable to find an API to handle products, we created a web scraper to pull computer part details.
 
 ### Functionality
+
+<img src='docs/layout/homepage.png' alt='homepage' width=600px>
+<img src='docs/layout/createbuild.png' alt='create build' width=500px>
+<img src='docs/layout/detailbuild.png' alt='detail build' width=500px>
+<img src='docs/layout/mybuild.png' alt='my builds' width=500px>
+<img src='docs/layout/listbuild.png' alt='list builds' width=500px>
+
+<!-- ![create_build](docs/layout/createbuild.png)
+![detail_build](docs/layout/detailbuild.png)
+![user_build](docs/layout/mybuild.png)
+![list_build](docs/layout/listbuild.png) -->
 
 - Users should be able to sign up for an account so that they save their builds
 - Users should be able to browse through a huge database of computer hardware
 - Users should be able to add parts that they want to a build list
 - Users should be able to save multiple different build lists
 - Users should be able to CRUD their build lists
-- A part that a user adds to a build list should show a warning if the part that was added is incompatable with another part.- Users should be able to CRUD their build lists
+- A part that a user adds to a build list should show a warning if the part that was added is incompatible with another part.- Users should be able to CRUD their build lists
 - From the build list, users should be able to click a shop button that opens up a 3rd party site, aka Newegg, where they can see the prices for those parts.
 - There should be a topdown view of a computer case where users can drag on parts that snap to the correct locations so that users can see how they look.
 - Users should be able to publish their private builds to be public.
