@@ -28,7 +28,7 @@ In your terminal, create docker volume: \
 `docker volume create cnp-data`
 
 Docker compose build and then up: \
-`docker compose build`
+`docker compose build` <br />
 `docker compose up`
 
 Access in browser:\
